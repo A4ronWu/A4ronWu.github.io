@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CHANGE ME</title>
+    <title>awulife</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <!-- All content goes here -->
     <div id="all-contents">
+      <nav>
+        <h1>Aaron Wu's Profile</h1>
+  <ul id="nav-ul">
+    <li class="nav-li">
+      <a href="index.html">Home</a>
+    </li>
+    <li class="nav-li">
+      <a href="portfolio.html">Portfolio</a>
+    </li>
+  </ul>
+      </nav>
+    
+      <main>
+        <!-- Sidebar section -->
+        <div class="sidebar">
+          <img class="sidebar-img" src="data:image/jpeg;base64,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">
+        </div>
       
+        <!-- Content section -->
+        <div class="content">
+          <h2>Aaron Wu</h2>
+          <p>Student at Bonnabel High School</p>
+
+          <!-- Interests section -->
+  <div id="interests">
+    <h3>Interests</h3>
+    <ul>
+      <li>Coding</li>
+      <li>Mathematics</li>
+      <li>Cubing</li>
+      <li>Video creation</li>
+      <li>Editing</li>
+    </ul>
+  </div>
+</div>
+      </main>
     </div>
   </body>
 </html>

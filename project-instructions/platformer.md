@@ -317,7 +317,7 @@ createPlatform(1350, 400, 50, 50, "red");
    Example function calls:
 
    ```javascript
-   createCollectable("steve", 1350, 50);
+    createCollectable("steve", 1350, 50);
    createCollectable("diamond", 200, 170, 0.5, 0.7);
    ```
 
